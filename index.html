@@ -72,7 +72,7 @@
 		}
 
 	// Teleports
-		var TeleportURL = "https://raw.githubusercontent.com/CelestialStrawberry/geodata/master/Teleport.geojson"
+		var TeleportURL = "https://raw.githubusercontent.com/petardinho/geodata/master/Teleport.geojson"
 		
 		var TeleportIcon = L.icon({
 		iconUrl: 'markers/TeleportMarker.png',
@@ -93,7 +93,7 @@
 		var Teleport = new L.GeoJSON.AJAX([TeleportURL],{pointToLayer:TeleportMarker,onEachFeature:oef});
 	
 	// Statues of the Seven
-		var StatueURL = "https://raw.githubusercontent.com/CelestialStrawberry/geodata/master/Statue.geojson"
+		var StatueURL = "https://raw.githubusercontent.com/petardinho/geodata/master/Statue.geojson"
 		
 		var StatueIcon = L.icon({
 		iconUrl: 'markers/StatueMarker.png',
@@ -114,7 +114,7 @@
 		var Statue = new L.GeoJSON.AJAX([StatueURL],{pointToLayer:StatueMarker,onEachFeature:oef}); //.addTo(map)
 		
 	// Domains
-		var DomainURL = "https://raw.githubusercontent.com/CelestialStrawberry/geodata/master/Domain.geojson"
+		var DomainURL = "https://raw.githubusercontent.com/petardinho/geodata/master/Domain.geojson"
 		
 		var DomainIcon = L.icon({
 		iconUrl: 'markers/DomainMarker.png',
@@ -135,7 +135,7 @@
 		var Domain = new L.GeoJSON.AJAX([DomainURL],{pointToLayer:DomainMarker,onEachFeature:oef});
 		
 	// Caves
-		var CaveURL = "https://raw.githubusercontent.com/CelestialStrawberry/geodata/master/Cave.geojson"
+		var CaveURL = "https://raw.githubusercontent.com/petardinho/geodata/master/Cave.geojson"
 
 		var CaveIcon = L.icon({
 		iconUrl: 'markers/CaveMarker.png',
@@ -156,7 +156,7 @@
 		var Cave = new L.GeoJSON.AJAX([CaveURL],{pointToLayer:CaveMarker,onEachFeature:oef});
 		
 	// Electro Crystals
-		var ElectroCrystalURL = "https://raw.githubusercontent.com/CelestialStrawberry/geodata/master/ElectroCrystal.geojson"
+		var ElectroCrystalURL = "https://raw.githubusercontent.com/petardinho/geodata/master/ElectroCrystal.geojson"
 
 		function ElectroCrystalMarker(feature, latlng){
 		let options = {
@@ -182,7 +182,7 @@
 		
 		
 	// Noctilucous Jades
-		var NoctilucousJadeURL = "https://raw.githubusercontent.com/CelestialStrawberry/geodata/master/NoctilucousJade.geojson"
+		var NoctilucousJadeURL = "https://raw.githubusercontent.com/petardinho/geodata/master/NoctilucousJade.geojson"
 		
 		function NoctilucousJadeMarker(feature, latlng){
 		let options = {
@@ -207,7 +207,7 @@
 		var NoctilucousJadeHeat 		= L.heatLayer(noctilucousJadehmcoords)
 		
 	// Cor Lapis
-		var CorLapisURL = "https://raw.githubusercontent.com/CelestialStrawberry/geodata/master/CorLapis.geojson"
+		var CorLapisURL = "https://raw.githubusercontent.com/petardinho/geodata/master/CorLapis.geojson"
 
 		function CorLapisMarker(feature, latlng){
 		let options = {
@@ -232,7 +232,7 @@
 		var CorLapisHeat 				= L.heatLayer(corLapishmcoords)
 		
 	// Crystal Chunks
-		var CrystalChunkURL = "https://raw.githubusercontent.com/CelestialStrawberry/geodata/master/CrystalChunk.geojson"
+		var CrystalChunkURL = "https://raw.githubusercontent.com/petardinho/geodata/master/CrystalChunk.geojson"
 
 		function CrystalChunkMarker(feature, latlng){
 		let options = {
@@ -257,7 +257,7 @@
 		var CrystalChunkHeat 			= L.heatLayer(crystalChunkhmcoords)
 
 	// White Iron Chunks
-		var WhiteIronChunkURL = "https://raw.githubusercontent.com/CelestialStrawberry/geodata/master/WhiteIronChunk.geojson"
+		var WhiteIronChunkURL = "https://raw.githubusercontent.com/petardinho/geodata/master/WhiteIronChunk.geojson"
 
 		function WhiteIronChunkMarker(feature, latlng){
 		let options = {
@@ -282,7 +282,7 @@
 		var WhiteIronChunkHeat 			= L.heatLayer(whiteIronChunkhmcoords)
 
 	// Jueyun Chili
-		var JueyunChiliURL = "https://raw.githubusercontent.com/CelestialStrawberry/geodata/master/JueyunChili.geojson"
+		var JueyunChiliURL = "https://raw.githubusercontent.com/petardinho/geodata/master/JueyunChili.geojson"
 
 		function JueyunChiliMarker(feature, latlng){
 		let options = {
@@ -307,7 +307,7 @@
 		var JueyunChiliHeat 			= L.heatLayer(jueyunChilihmcoords)
 
 	// Lotus Heads
-		var LotusHeadURL = "https://raw.githubusercontent.com/CelestialStrawberry/geodata/master/LotusHead.geojson"
+		var LotusHeadURL = "https://raw.githubusercontent.com/petardinho/geodata/master/LotusHead.geojson"
 
 		function LotusHeadMarker(feature, latlng){
 		let options = {
@@ -332,7 +332,7 @@
 		var LotusHeadHeat 				= L.heatLayer(lotusHeadhmcoords)
 
 	// Raw Meats
-		var RawMeatURL = "https://raw.githubusercontent.com/CelestialStrawberry/geodata/master/RawMeat.geojson"
+		var RawMeatURL = "https://raw.githubusercontent.com/petardinho/geodata/master/RawMeat.geojson"
 
 		function RawMeatMarker(feature, latlng){
 		let options = {
@@ -358,7 +358,7 @@
 
 
 	// Crabs
-		var CrabURL = "https://raw.githubusercontent.com/CelestialStrawberry/geodata/master/Crab.geojson"
+		var CrabURL = "https://raw.githubusercontent.com/petardinho/geodata/master/Crab.geojson"
 
 		function CrabMarker(feature, latlng){
 		let options = {
@@ -383,7 +383,7 @@
 		var CrabHeat 					= L.heatLayer(crabhmcoords)
 
 	// Bosses
-		var BossURL = "https://raw.githubusercontent.com/CelestialStrawberry/geodata/master/Boss.geojson"
+		var BossURL = "https://raw.githubusercontent.com/petardinho/geodata/master/Boss.geojson"
 
 		function BossMarker(feature, latlng){
 		let options = {
